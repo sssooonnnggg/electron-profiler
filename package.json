@@ -1,0 +1,25 @@
+{
+  "name": "electron-profiler",
+  "version": "1.0.0",
+  "description": "electron main process profiler",
+  "keywords": [
+    "electron",
+    "profiler"
+  ],
+  "scripts": {
+    "build": "cmake-js rebuild",
+    "test": "electron test/index.js"
+  },
+  "author": "https://github.com/sssooonnnggg",
+  "license": "MIT",
+  "dependencies": {
+    "cmake-js": "^6.2.1",
+    "electron": "^15.3.0",
+    "nan": "^2.14.1"
+  },
+  "cmake-js": {
+    "runtime": "electron",
+    "runtimeVersion": "15.3.0",
+    "arch": "x64"
+  }
+}

@@ -1,0 +1,14 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electron profiler test</title>
+</head>
+
+<body>
+    <button onclick="window.ipc.send('start-cpu-profiling')">start cpu profiling</button>
+    <button onclick="window.ipc.send('stop-cpu-profiling')">stop cpu profiling</button>
+    <button onclick="window.ipc.send('take-heap-snapshot')">take heap snapshot</button>
+</body>
+</html>
